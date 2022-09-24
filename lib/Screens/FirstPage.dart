@@ -127,32 +127,32 @@ class _FirstPageState extends State<FirstPage> {
               SizedBox(
                 height: 15,
               ),
-              // Container(
-              //   height: 45,
-              //   width: double.infinity,
-              //   decoration: BoxDecoration(
-              //     color: Color(0xffceced0),
-              //     borderRadius: BorderRadius.circular(25),
-              //   ),
-              //   child: MaterialButton(
-              //     onPressed: () {
-              //       Navigator.push(
-              //         context,
-              //         MaterialPageRoute(
-              //           builder: (context) => MarketingLoginPage(),
-              //         ),
-              //       );
-              //     },
-              //     child: Text(
-              //       'Marketing Login',
-              //       style: TextStyle(
-              //         fontSize: 16,
-              //         fontWeight: FontWeight.w600,
-              //         color: Colors.white,
-              //       ),
-              //     ),
-              //   ),
-              // ),
+              Container(
+                height: 45,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: Color(0xffceced0),
+                  borderRadius: BorderRadius.circular(25),
+                ),
+                child: MaterialButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => MarketingLoginPage(),
+                      ),
+                    );
+                  },
+                  child: Text(
+                    'Marketing Login',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ),
               SizedBox(
                 height: 20,
               ),
